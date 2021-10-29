@@ -8,7 +8,7 @@ html {
     height: 100%;
 }
 
-.bg {
+.bg-viagem {
     /* The image used */
     background-image: url(../images/viagem/IMG_1833.JPEG);
     /* Center and scale the image nicely */
@@ -17,7 +17,20 @@ html {
     background-size: cover;
 }
 
-.mask-custom {
-    backdrop-filter: blur(5px);
+.bg-games {
+    /* The image used */
+    background-image: url(../images/Capa_Snow.jpg);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mask-white {
     background-color: rgba(255, 255, 255, 0.500);
+}
+
+.mask-black {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.7);
 }
